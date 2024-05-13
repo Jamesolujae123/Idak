@@ -7,14 +7,13 @@ function Insight() {
     return (
 <>
 <div className="insighting">
-<div classname="int">
- Insights and Performance Metrics
-
-<div className='rate'><img classname="blk" src={ratings} /></div>  
+<div classname="int"> <span className='insight-tin'>Insights and Performance Metrics</span>
+  </div>
+<div className='sec-comp'><div className='rate'><img classname="blk" src={ratings} /></div>  
 <div className='rate'><img classname="blk" src={listings} /></div>
 <div className='rate'><img classname="blk" src={articles} /></div>
-
 </div>
+
 </div>
 
 
