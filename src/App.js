@@ -6,6 +6,8 @@ import Nxt from './nxtpart'
 import Featuredh from './houses'
 import Insight from './insights';
 import Loc from './loc';
+import Article from './articles';
+import Footer from './footer';
 
 function App() {
   return ( 
