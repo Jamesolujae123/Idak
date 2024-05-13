@@ -35,30 +35,30 @@ return (
 
                                    <div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
                                    <div><img className="hse" src={house1} alt="hosue1" /></div>
-                                    <div><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
-                                    <div><h4>Luxury villa in Rego Park</h4></div>
-                                    <div><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
-                                    <div className="btm-stuff"> <div><img className="prof" src={profile} alt="prof"  />Anne Liza<span>Property seller</span></div>   <div className="heart"><img src={heart} /> </div></div>
+                                    <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
+                                    <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
+                                    <div className='mid-tin'><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
+                                    <div className="btm-stuff"><div className="prof-ciont"><img className="prof" src={profile} alt="prof"  /><div className='text'>Anne Liza<span>Property seller</span></div></div>   <div className="heart"><img src={heart} /> </div></div>
                                 </div>
 
                                 <div className="house">
 
                                    <div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
                                    <div><img className="hse" src={house2} alt="hosue2" /></div>
-                                    <div><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
-                                    <div><h4>Luxury villa in Rego Park</h4></div>
-                                    <div><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
-                                    <div className="btm-stuff"> <div><img className="prof" src={profile} alt="prof"  />Anne Liza<span>Property seller</span></div>   <div className="heart"><img src={heart} /> </div></div>
+                                    <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
+                                    <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
+                                    <div className='mid-tin'><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
+                                    <div className="btm-stuff"><div className="prof-ciont"><img className="prof" src={profile} alt="prof"  /><div className='text'>Anne Liza<span>Property seller</span></div></div>   <div className="heart"><img src={heart} /> </div></div>
                                 </div>
 
                                 <div className="house">
 
                                    <div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
                                    <div><img className="hse" src={house3} alt="hosue3" /></div>
-                                    <div><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
-                                    <div><h4>Luxury villa in Rego Park</h4></div>
-                                    <div><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
-                                    <div className="btm-stuff"> <div><img className="prof" src={profile} alt="prof"  />Anne Liza<span>Property seller</span></div>   <div className="heart"><img src={heart} /> </div></div>
+                                    <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
+                                    <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
+                                    <div className='mid-tin'><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
+                                    <div className="btm-stuff"> <div className="prof-ciont"><img className="prof" src={profile} alt="prof"  /><div className='text'>Anne Liza<span>Property seller</span></div></div> <div className="heart"><img src={heart} /> </div></div>
                                 </div>
 
                                 
@@ -68,30 +68,30 @@ return (
 
 <div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
 <div><img className="hse" src={house1} alt="hosue1" /></div>
- <div><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
- <div><h4>Luxury villa in Rego Park</h4></div>
- <div><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
- <div className="btm-stuff"> <div><img className="prof" src={profile} alt="prof"  />Anne Liza<span>Property seller</span></div>   <div className="heart"><img src={heart} /> </div></div>
+ <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
+ <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
+ <div className='mid-tin'><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
+ <div className="btm-stuff"> <div className="prof-ciont"><img className="prof" src={profile} alt="prof"  /><div className='text'>Anne Liza<span>Property seller</span></div></div>   <div className="heart"><img src={heart} /> </div></div>
 </div>
 
 <div className="house">
 
 <div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
 <div><img className="hse" src={house2} alt="hosue2" /></div>
- <div><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
- <div><h4>Luxury villa in Rego Park</h4></div>
- <div><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
- <div className="btm-stuff"> <div><img className="prof" src={profile} alt="prof"  />Anne Liza<span>Property seller</span></div>   <div className="heart"><img src={heart} /> </div></div>
+ <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
+ <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
+ <div className='mid-tin'><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
+ <div className="btm-stuff"> <div className="prof-ciont"><img className="prof" src={profile} alt="prof"  /><div className='text'>Anne Liza<span>Property seller</span></div></div>   <div className="heart"><img src={heart} /> </div></div>
 </div>
 
 <div className="house">
 
 <div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
 <div><img className="hse" src={house3} alt="hosue3" /></div>
- <div><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
- <div><h4>Luxury villa in Rego Park</h4></div>
- <div><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
- <div className="btm-stuff"> <div><img className="prof" src={profile} alt="prof"  />Anne Liza<span>Property seller</span></div>   <div className="heart"><img src={heart} /> </div></div>
+ <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
+ <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
+ <div className='mid-tin'><span class="bed-rooms">3Bedrooms</span> <span class="Bathrooms">2Bathrooms</span> <span className="sFT">2500 SquareFT</span></div>
+ <div className="btm-stuff"><div className="prof-ciont"><img className="prof" src={profile} alt="prof"  /><div className='text'>Anne Liza<span>Property seller</span></div></div>   <div className="heart"><img src={heart} /> </div></div>
 </div>
 </div>
 
