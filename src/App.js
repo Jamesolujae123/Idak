@@ -17,6 +17,8 @@ function App() {
    <Featuredh /> 
    <Insight />
    <Loc />
+    <Article />
+    <footer />
   </>
  
    
