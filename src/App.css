@@ -277,6 +277,17 @@ width: 170px;
  align-items: center;
 }
 
+h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+  padding-block: 20px;
+}
+
+
 .svs-2 img {
   height: 30px;
   width: 170px;
@@ -486,4 +497,51 @@ column-gap: 20px;
   .mid-2 {
     display: flex;
     gap: 15px;
+  }
+
+  .art1 {
+    width: 630px;
+  }
+
+  .featured-a{
+    display: flex;
+    gap: 30px;
+  }
+
+  .Article {
+    padding-inline: 40px;
+  }
+
+  .art2{
+    width: 200px;
+    height: 151px;
+  }
+
+  .art3{width: 200px;
+    height: 151px;
+  }
+
+  .art4{width: 200px;
+    height: 151px;
+  }
+
+  .art5{width: 200px;
+    height: 151px;
+  }
+
+  .mid-art {
+    display: flex;
+    
+  }
+
+  .mid-art-abt{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 300px;
+    margin-left: 10px;
+  }
+
+  .footer {
+    background-color: #F4F4F4;
   }
