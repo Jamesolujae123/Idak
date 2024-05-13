@@ -207,7 +207,7 @@ width: 170px;
 }
 
 .nxt-2 h2 {
-  font-family: "Plus Jakarta Sans", sans-serif;;
+  font-family: "Plus Jakarta Sans", sans-serif;
   text-decoration: none;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -277,6 +277,17 @@ width: 170px;
  align-items: center;
 }
 
+h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+  padding-block: 20px;
+}
+
+
 .svs-2 img {
   height: 30px;
   width: 170px;
@@ -290,16 +301,34 @@ width: 170px;
   flex-direction: column;
 }
 
-
+.rentImgDiv{
+position: relative;
+overflow-y: hidden;
+}
 
 .hse {
   width: 350px;
   position: relative;
 }
 
+
+
 .btm-stuff {
   display: flex;
+  padding-block: 15px;
+ justify-content: space-between;
+ padding-inline: 10px;
   align-items: baseline;
+  border: 1px #E6E6E6;
+  border-top-style: solid;
+}
+
+.mid-tin{
+  display: flex;
+
+  justify-content: space-between;
+  padding-block: 10px;
+  padding-inline: 10px;
 }
 
 .houses {
@@ -318,15 +347,39 @@ width: 170px;
 
 .int{
  display: flex;
- height: 500px;
+ flex-direction: column;
+  height: 500px;
  width: 100%;
+}
+
+.insight-tin {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+}
+
+.price-h{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.Bathrooms{
+  padding-inline: 20px;
+  border: 2px #030303;
+  border-left-style: solid;
+  border-right-style: solid;
 }
 
 
 
 .rate { 
   width: 300px;
-  height: 100px; 
+  height: 200px; 
+  overflow-y: hidden;
+  border: none;
 }
 
 .rate img {
@@ -334,9 +387,11 @@ width: 170px;
   height: 100%;
 }
 
-.for-rent {
-  
+.name-h {
+  padding-left: 10px;
+  padding-block: 10px;
 }
+
 
 .price {
   font-family: "Plus Jakarta Sans", sans-serif;;
@@ -357,6 +412,136 @@ width: 170px;
 }
 
 .insighting {
+ background-color: #F4F4F4;
+ display: flex;
+ width: 100vw;
+ padding-block: 100px;
+ padding-inline: 80px;
+}
+
+.prof-ciont{
+  width: 170px;
   display: flex;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3px;
+}
+
+.text span {
+
+  padding-top: 10px;
+}
+
+.locations {
+  margin-top: 70px;
+  margin-bottom: 30px;
 
 }
+
+.loc-cont {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+row-gap: 20px;
+column-gap: 20px;
+}
+
+.nxt-3 {
+  margin-left: 30px;
+  padding-inline: 30px;
+  padding-bottom: 50px;
+}
+
+.loc-left {
+  width: 250px;
+}
+
+.loc-mid-1{
+  width: 200px;
+}
+
+.loc-mid-2{ width: 200px;}
+
+.loc-mid-3{ width: 200px;}
+
+.loc-mid-4{ width: 200px;}
+
+.loc-right {
+  width: 250px;
+}
+
+.left {
+  width: max-content;
+}
+
+.right {
+  width: max-content;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  width: max-content;}
+
+  .mid-1{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+  }
+
+  .mid-2 {
+    display: flex;
+    gap: 15px;
+  }
+
+  .art1 {
+    width: 630px;
+  }
+
+  .featured-a{
+    display: flex;
+    gap: 30px;
+  }
+
+  .Article {
+    padding-inline: 40px;
+  }
+
+  .art2{
+    width: 200px;
+    height: 151px;
+  }
+
+  .art3{width: 200px;
+    height: 151px;
+  }
+
+  .art4{width: 200px;
+    height: 151px;
+  }
+
+  .art5{width: 200px;
+    height: 151px;
+  }
+
+  .mid-art {
+    display: flex;
+    
+  }
+
+  .mid-art-abt{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 300px;
+    margin-left: 10px;
+  }
+
+  .footer {
+    background-color: #F4F4F4;
+  }
