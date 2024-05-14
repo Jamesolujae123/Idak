@@ -192,7 +192,7 @@ width: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 120px;
+    padding-left: 50px;
   }
 
 
@@ -308,7 +308,7 @@ overflow-y: hidden;
 }
 
 .hse {
-  width: 350px;
+  width: 380px;
   position: relative;
 }
 
@@ -328,19 +328,19 @@ overflow-y: hidden;
   display: flex;
 
   justify-content: space-between;
-  padding-block: 10px;
-  padding-inline: 10px;
+  padding-block: 15px;
+  padding-inline: 14px;
 }
 
 .houses {
-  padding-inline: 30px;
+  padding-inline: 20px;
   display: flex;
   gap: 20px;
   width: 100%;
 }
 
 .houses-2 {
-  padding-inline: 30px;
+  padding-inline: 20px;
   display: flex;
   gap: 20px;
   width: 100%;
@@ -364,11 +364,11 @@ overflow-y: hidden;
 
 .price-h{
   padding-top: 10px;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 .Bathrooms{
-  padding-inline: 20px;
+  padding-inline: 10px;
   border: 2px #030303;
   border-left-style: solid;
   border-right-style: solid;
@@ -389,7 +389,7 @@ overflow-y: hidden;
 }
 
 .name-h {
-  padding-left: 10px;
+  padding-left: 15px;
   padding-block: 10px;
 }
 
@@ -397,7 +397,7 @@ overflow-y: hidden;
 .price {
   font-family: "Plus Jakarta Sans", sans-serif;;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   font-style: normal;
   color: #E93740;
@@ -428,10 +428,20 @@ overflow-y: hidden;
   display: flex;
   flex-direction: column;
   padding-top: 3px;
+  margin-left: 13px;
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
 }
 
 .text span {
-
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
   padding-top: 10px;
 }
 
@@ -501,6 +511,7 @@ column-gap: 20px;
 
   .art1 {
     width: 630px;
+    margin-bottom: 30px;
   }
 
   .featured-a{
@@ -532,13 +543,12 @@ column-gap: 20px;
 
   .mid-art {
     display: flex;
-    
+    padding-bottom: 20px;
   }
 
   .mid-art-abt{
     display: flex;
     flex-direction: column;
-    height: 100px;
     width: 300px;
     margin-left: 10px;
   }
@@ -681,5 +691,49 @@ column-gap: 20px;
     font-weight: 500;
     font-size: 13px;
     font-style: normal;
+  }
+  
+.sub-sec {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.date { font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 12px;
+  color: #E93740;
+  font-style: normal;}
+
+.topic{font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  margin-block: 20px;
+  font-size: 20px;
+
+  font-style: normal;}
+
+.note{font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 13px;
+  color: #8B8B8B;
+  font-style: normal;}
+
+
+  .name-h h4 {
+    font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;}
+
+  .mid-tin span {
+    font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
   }
   
