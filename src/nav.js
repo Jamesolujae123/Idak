@@ -1,13 +1,17 @@
 import logo from "../src/assets/logo 1.png";
+import {Link} from 'react-router-dom'
+import './nav.css'
+
+
 
 function Nav() {
     return (
         <>
         <div className="Top-nav">
             <div className="nav-img">
-                <img src={logo} alt="idak-pic" />
+                <img className="idak-pic" src={logo} alt="idak-pic" />
             </div>
-            <div className="nav-links">
+            <div className="nav-links" id="head-links">
                 <a href="#">Home</a>
                 <a href="#">Rentals</a>
                 <a href="#">Categories</a>
@@ -17,14 +21,17 @@ function Nav() {
             </div>
             <div className="cont-3">    <div className="sign-in">
             <i class="fa-regular fa-user"></i>
-               <a href="#">Sign in</a> 
+               <a href="#" >Sign in</a>  
             </div>
+            <div className="dropdown"><a href="#" class="fa-solid fa-bars" ></a></div>
             <div className="p-list"><button className="posts-lit"><i class="fa-solid fa-plus"></i> Post Listing</button></div>
         </div>
         </div>
         </>
+        
     )
 }
+
 
 
 export default Nav;
