@@ -49,6 +49,7 @@
   display: flex;
   gap: 24px;
   align-items: baseline;
+  padding-inline: 20px;
 }
 
 .posts-lit{
@@ -408,7 +409,6 @@ overflow-y: hidden;
   font-weight: 500;
   font-size: 13px;
   font-style: normal;
-  overflow-y: hidden;
 }
 
 .insighting {
@@ -510,6 +510,7 @@ column-gap: 20px;
 
   .Article {
     padding-inline: 40px;
+    margin-bottom: 60px;
   }
 
   .art2{
@@ -543,5 +544,142 @@ column-gap: 20px;
   }
 
   .footer {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
     background-color: #F4F4F4;
+    padding-top: 140px;
   }
+
+  .footer-icon {
+    margin-top: 30px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 50px;
+  }
+
+  .footer-iconn{
+    padding: 10px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .footer-iconn-f {
+    padding-block: 5px;
+    padding-inline: 14px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .footer-first {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer-first h6 {
+    padding-top: 20px;
+    width: 250px;
+  }
+
+  .f-logo{ 
+    width: 160px;
+    height: 51px;
+  }
+
+  .footer-second {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-second a {
+    text-decoration: none;
+    color: #030303;
+  }
+
+  .footer-second a:hover {
+    color: chocolate;
+  }
+
+  .footer-third {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-third a {
+    text-decoration: none;
+    color: #030303;
+  }
+  
+  .footer-third a:hover {
+    color: chocolate;
+  }
+
+  .footer-forth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-forth a {text-decoration: none;
+    color: #030303;}
+
+  .footer-forth a:hover {
+    color: chocolate;
+  }
+
+  .footer-fifth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .email-input {
+    border: 1px solid #CCCCCC;
+    padding: 14px;
+    border-radius: 40px;
+  }
+
+  .subscribe-btn {
+    padding-block: 18px;
+    border-radius: 30px;
+    background-color: #E93740;
+    border: none;
+    color: white;
+  }
+
+  .footer h3 {
+    font-family: "Plus Jakarta Sans", sans-serif;;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    color: #E93740;
+  }
+
+  .footer h6 {
+    font-family: "Plus Jakarta Sans", sans-serif;;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+  } 
+
+  .footer a {
+    font-family: "Plus Jakarta Sans", sans-serif;;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 13px;
+    font-style: normal;
+  }
+  
