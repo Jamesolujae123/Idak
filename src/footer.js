@@ -1,4 +1,5 @@
 import flogo from "../src/assets/logo 1.png";
+import './footer.css'
 
 function Footer (){
     return (<>
