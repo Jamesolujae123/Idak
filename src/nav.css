@@ -61,3 +61,6 @@
 .dropdown a:hover {
     color: chocolate;
 }
+
+.dropdown {
+    overflow-y : none;
