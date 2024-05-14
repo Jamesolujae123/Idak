@@ -1,1 +1,7 @@
 
+@media screen and (max-width: 600) {
+.footer {
+display: flex;
+  flex-direction: column;
+}
+}
