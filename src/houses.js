@@ -14,6 +14,8 @@ import forrent from './assets/Group 33509.svg'
 import profile from './assets/Ellipse 38.png'
 import heart from './assets/Frame 33640.svg'
 
+import './houses.css'
+
 function Featuredh() {
 return (
     <>
