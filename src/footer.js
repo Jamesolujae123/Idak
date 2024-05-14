@@ -45,8 +45,11 @@ function Footer (){
         <a href="#">Contact Us</a></div>
         <div className="footer-fifth"><h3>Subscribe to Our Newsletter</h3>
         <h6>Stay updated with the latest listings and rental tips.</h6>
-        <input className="email-input" type="email" placeholder="Email Address"></input>
+        <form>
+            <div className="sub-sec"><input className="email-input" required type="email" placeholder="Email Address"  autocomplete="email" name="email" minlength="8" maxlength="24"></input>
         <button className="subscribe-btn">Subscribe</button></div>
+            </form>
+        </div>
    
     </div>
     </>)
