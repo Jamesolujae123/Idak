@@ -4,6 +4,7 @@ import art2 from './assets/parallax2.png'
 import art3 from './assets/parallax3.png'
 import art4 from './assets/parallax4.png'
 import art5 from './assets/parallax5.png'
+import './articles.css'
 
 function Article () {
 return (<>
